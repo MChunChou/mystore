@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "main": "./src/index.js",
   "type": "module",
+  "author": "mchunchou",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo mystore build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/MChunChou/mystore"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
@@ -22,6 +23,12 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
