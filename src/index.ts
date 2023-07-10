@@ -1,2 +1,2 @@
-export {default as Test} from './Test/index.tsx';
-// export * from './Test';
+export {default as Test} from './Test';
+export * from './Test';
