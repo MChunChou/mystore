@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "main": "./src/index.js",
+  "module": "./dist/main.js",
   "type": "module",
   "author": "mchunchou",
   "license": "MIT",
