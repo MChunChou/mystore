@@ -1,0 +1,1 @@
+export type CollapseProps = React.PropsWithChildren

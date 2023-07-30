@@ -1,0 +1,1 @@
+export type InputParams = React.HTMLProps<HTMLInputElement>
