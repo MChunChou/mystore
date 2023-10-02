@@ -1,17 +1,17 @@
 import React, {
   useState,
-  useCallback,
+  // useCallback,
   forwardRef,
   useImperativeHandle,
-} from "react";
-import classnames from "classnames";
+} from 'react';
+import classnames from 'classnames';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
-import IconButton from "IconButton";
-import "./index.scss";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
+import IconButton from 'IconButton';
+import './index.scss';
 
-import { CollapseProps } from "./type";
+import { CollapseProps } from './type';
 
 const Collapse = forwardRef(
   (props: CollapseProps, ref: React.Ref<unknown> | undefined) => {
@@ -28,17 +28,17 @@ const Collapse = forwardRef(
       };
     });
 
-    const handleActive = useCallback(() => {
-      setIsOpen((open) => !open);
-    }, []);
+    // const handleActive = useCallback(() => {
+    //   setIsOpen((open) => !open);
+    // }, []);
 
     return (
-      <div className={classnames("collapse", { active: isOpen })}>
+      <div className={classnames('collapse', { active: isOpen })}>
         <div className="content box">{props.children}</div>
         <IconButton
-          className={classnames("collapse-btn")}
-          onClick={handleActive}
-          icon={faCaretUp}
+        // className={classnames('collapse-btn')}
+        // onClick={handleActive}
+        // icon={faCaretUp}
         />
       </div>
     );

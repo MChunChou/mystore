@@ -1,10 +1,9 @@
-
-import { ButtonProps } from './type'
+import { ButtonProps } from './type';
 
 const useButton = (props: ButtonProps) => {
-    
-    return
-}
+  console.log(props);
+  return;
+};
 
-export * from './type'
+export * from './type';
 export default useButton;

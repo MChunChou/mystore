@@ -1,7 +1,7 @@
-import {InputParams} from './type.ts';
+// import {InputParams} from './type.ts';
 
-const useInput = (props: InputParams) => {
-    return
+const useInput = () => {
+  return;
 };
 
 export default useInput;

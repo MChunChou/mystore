@@ -1,5 +1,5 @@
-import { AgGridReactProps } from "ag-grid-react";
+// import { AgGridReactProps } from "ag-grid-react";
 
-export interface AgTableProps extends AgGridReactProps {
-    collapse: boolean
-}
+// export interface AgTableProps extends AgGridReactProps {
+//     collapse: boolean
+// }
