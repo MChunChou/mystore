@@ -1,6 +1,9 @@
-import React from "react";
+import { useRef } from "react";
+import Collapse, { CollapseRef } from "../layout/Collapse";
 
 const Test = () => {
-  return <>Hello I'm Test Lib</>;
+  const ref = useRef<CollapseRef | null>(null);
+  return <Collapse ref={ref} open={true}></Collapse>;
 };
+
 export default Test;
